@@ -14,8 +14,6 @@ public class SingleTest extends TestNGTest {
         String headerText = driver.findElement(By.id("primary-menu")).getText();
         Assert.assertTrue(headerText.contains("Sign in"));
         Assert.assertFalse(headerText.contains("Account"));
-        WebElement resources = driver.findElement(By.cssSelector("#resources-menu-toggle"));
-        resources.click();
         WebElement mobile = driver.findElement(By.linkText("Mobile Features"));
         mobile.click();
         Assert.assertEquals(driver.getTitle(),"All you need to test Responsive web design : Browserstack");
