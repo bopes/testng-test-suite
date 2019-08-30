@@ -1,3 +1,3 @@
 # testng-test-suite
 
-TBD
+- To run the single test, run `mvn test -P single`
