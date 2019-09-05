@@ -1,0 +1,37 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "geraylalaramirez1",
+  "key": "q87joZtLcqubhqTjE1ij",
+
+  "capabilities": {
+    "name": "Bstack-[TestNG] Parallel Test",
+    "browserstack.debug": true,
+    "browserstack.networkLogs": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome",
+      "os": "Windows",
+      "osVersion": "10"
+    },
+    "firefox": {
+      "browser": "firefox",
+      "os": "OS X",
+      "osVersion": "Mojave"
+    },
+    "safari": {
+      "browser": "Safari",
+      "os": "OS X",
+      "osVersion": "Mojave",
+      "browserstack.safari.enablePopups": true,
+      "browserstack.safari.allowAllCookies": true
+    },
+    "ie": {
+      "browser": "IE",
+      "os": "Windows",
+      "osVersion": "10",
+      "browserstack.ie.enablePopups": true
+    }
+  }
+}
