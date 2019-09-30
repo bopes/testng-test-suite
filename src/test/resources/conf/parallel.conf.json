@@ -5,7 +5,10 @@
 
   "capabilities": {
     "name": "Bstack-[TestNG] Parallel Test",
-    "browserstack.debug": true
+    "browserstack.debug": true,
+    "browserstack.console": "info",
+    "browserstack.ie.enablePopups": true,
+    "browserstack.safari.enablePopups": true
   },
 
   "environments": {

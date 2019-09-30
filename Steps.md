@@ -19,3 +19,19 @@
 
 	run maven profile for single test:
 	mvn test -P single
+
+	setup configuration for the different OS-browser combinations
+	run tests for each configuration
+
+
+	Now to speed up testing and making the most of Selenium's scaling:
+
+	We set up the configuration with all the different environments to test in.
+	parallel.conf.json and parallel.testng.xml
+
+	We finally create a Maven profile to execute the test using the parallel configurations
+
+	and we run the test in parallel by executing:
+	mvn test P parallel
+
+	Check results on BrowserStack's Dashboard
