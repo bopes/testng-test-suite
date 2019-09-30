@@ -7,9 +7,9 @@
  	View result on the console and on BrowserStack Dashboard (https://automate.browserstack.com/dashboard)
  	image console
  	image dashboard
- 	![alt text](http://url/to/img.png)
+ 	![dashboard](.//img.png)
  	My first automated test
-	![alt text](./img/({imagename}).png)
+	![alt text](./img/Dashboard_JavaSample.png)
 #4 Following the automatation guide (https://www.browserstack.com/automate/testng)
 	
 	Create Test Resource folder to hold test configuration files and file for single test
