@@ -1,0 +1,20 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "andressalineroje1",
+  "key": "24JHjMR1kWpLoA1sixLR",
+
+  "capabilities": {
+    "name": "Bstack-[TestNG] Sample Test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "firefox": {
+    "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "Firefox",
+      "browser_version": "70.0 beta",
+      "resolution": "1024x768"
+    }
+  }
+}

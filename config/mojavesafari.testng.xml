@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Single">
     <test name="SingleTest">
-        <parameter name="config" value="single.conf.json"/>
-        <parameter name="environment" value="chrome"/>
+        <parameter name="config" value="mojavesafari.conf.json"/>
+        <parameter name="environment" value="safari"/>
         <classes>
             <class name="com.testSuite.SingleTest"/>
         </classes>
