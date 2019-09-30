@@ -34,4 +34,5 @@
 	and we run the test in parallel by executing:
 	mvn test P parallel
 
+
 	Check results on BrowserStack's Dashboard
