@@ -34,7 +34,7 @@ And the result in BrowserStack's Dashboard:
 
 ![Dashboard Integration](./img/Dashboard_After_Single_Test_Integration.png)
 
-setup configuration for the different OS-browser combinations run tests for each configuration:
+Setup the configuration for the different OS-browser combinations, we can get these from (https://www.browserstack.com/automate/capabilities) which includes a Capability Generator, and run tests for each configuration:
 
 ![cross browser non parallel](./img/Dashboard_across_browsers_test.png)
 
@@ -47,7 +47,7 @@ We set up the configuration with all the different environments to test in.
 
 We finally create a Maven profile to execute the test using the parallel configurations
 
-	and we run the test in parallel by executing:
+and we run the test in parallel by executing:
 ```
 	mvn test P parallel
 ```
