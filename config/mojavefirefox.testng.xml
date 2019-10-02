@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Single">
-    <test name="SingleTest">
-        <parameter name="config" value="single.conf.json"/>
-        <parameter name="environment" value="chrome"/>
+    <test name="Firefox">
+        <parameter name="config" value="mojavefirefox.conf.json"/>
+        <parameter name="environment" value="firefox"/>
         <classes>
             <class name="com.testSuite.SingleTest"/>
         </classes>

@@ -1,5 +1,7 @@
-*.png
 target/
 local.log
 .idea
 *.iml
+*.classpath
+*.project
+*.settings/

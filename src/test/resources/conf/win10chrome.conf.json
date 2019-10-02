@@ -1,0 +1,20 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "andressalineroje1",
+  "key": "24JHjMR1kWpLoA1sixLR",
+
+  "capabilities": {
+    "name": "Bstack-[TestNG] Sample Test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "os": "Windows",
+        "os_version": "10",
+        "browser": "Chrome",
+        "browser_version": "78.0 beta",
+        "resolution": "1024x768"
+    }
+  }
+}
