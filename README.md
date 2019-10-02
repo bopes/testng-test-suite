@@ -49,7 +49,7 @@ We finally create a Maven profile to execute the test using the parallel configu
 
 and we run the test in parallel by executing:
 ```
-	mvn test P parallel
+	mvn test -P parallel
 ```
 
 Check results on BrowserStack's Dashboard
