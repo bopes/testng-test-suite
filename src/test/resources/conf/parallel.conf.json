@@ -1,7 +1,7 @@
 {
   "server": "hub-cloud.browserstack.com",
-  "user": "andressalineroje1",
-  "key": "24JHjMR1kWpLoA1sixLR",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
 
   "capabilities": {
     "name": "Bstack-[TestNG] Parallel Test",
